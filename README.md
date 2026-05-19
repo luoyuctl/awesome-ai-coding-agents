@@ -34,6 +34,7 @@ This repository tracks the most useful tools, projects, and learning resources i
 - [AI Coding Agents](#ai-coding-agents)
 - [Terminal AI Assistants](#terminal-ai-assistants)
 - [Code Review and PR Automation](#code-review-and-pr-automation)
+- [Debugging and Observability](#debugging-and-observability)
 - [Open Source Agent Frameworks](#open-source-agent-frameworks)
 - [Learning Resources](#learning-resources)
 - [How to Choose](#how-to-choose)
@@ -99,6 +100,13 @@ This repository tracks the most useful tools, projects, and learning resources i
 - What it is: AI reviewer layered on modern PR workflows
 - Best for: engineering teams with stacked diffs and review-heavy processes
 
+## Debugging and Observability
+
+### agenttrace
+- GitHub: https://github.com/luoyuctl/agenttrace
+- What it is: local TUI for AI coding agent session history, cost, token, latency, failure, health, and report observability
+- Best for: developers comparing and debugging Claude Code, Codex CLI, Gemini CLI, Aider, Cursor exports, and similar agent runs
+
 ## Open Source Agent Frameworks
 
 ### OpenHands
@@ -131,6 +139,7 @@ Choose based on your workflow:
 - **IDE-first:** Cursor, Cline, Roo Code
 - **Autonomous repo work:** OpenHands, SWE-agent
 - **PR review:** CodeRabbit, Graphite Diamond
+- **Agent run observability:** agenttrace
 - **Build your own agent system:** AutoGen, LangGraph, CrewAI
 
 ## SEO keywords covered
